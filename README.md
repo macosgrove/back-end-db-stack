@@ -43,9 +43,9 @@ Start the database server
 ```
 mongod --config /usr/local/etc/mongod.conf
 ```
-Start the Sinatra server  
+Start the Sinatra server with Rackup 
 ```
-ruby app.rb
+rackup
 ```
 ### Browse to http://localhost:5556/
 

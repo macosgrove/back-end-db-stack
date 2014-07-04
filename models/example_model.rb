@@ -3,4 +3,8 @@ class ExampleModel
 
   field :id, type: Integer
   field :name, type: String
+
+  def test_method
+    'test'
+  end
 end
